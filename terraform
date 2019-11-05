@@ -1,0 +1,22 @@
+SarhafHafsar@123
+terraform init
+terraform apply
+ssh-keygen -f tf-demo
+export AWS_SECRET_ACCESS_KEY = "UQVQ6f1vPasCg0Rhby9HNxWkNRjHYDGpn81KO5Jt"
+export AWS_ACCESS_KEY_ID = "AKIA2OAFUCCOMUYBFUOT"
+
+git clone git@gitlab.com:shathedawn/terraform.git
+
+IAC - Infrastructure as Code
+defined in code
+stored in source control
+Declarative - terraform is declarative {}
+Imperative
+Idempotent & consistent - it won't change its state
+
+Benefits:
+	Automated Deployment
+	Consistent Environment
+	Repeatable Process
+	Reusable Components
+	Documented Architecture
