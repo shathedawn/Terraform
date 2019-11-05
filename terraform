@@ -1,9 +1,8 @@
-SarhafHafsar@123
 terraform init
 terraform apply
 ssh-keygen -f tf-demo
-export AWS_SECRET_ACCESS_KEY = "UQVQ6f1vPasCg0Rhby9HNxWkNRjHYDGpn81KO5Jt"
-export AWS_ACCESS_KEY_ID = "AKIA2OAFUCCOMUYBFUOT"
+export AWS_SECRET_ACCESS_KEY = "xxx"
+export AWS_ACCESS_KEY_ID = "xxx"
 
 git clone git@gitlab.com:shathedawn/terraform.git
 
@@ -20,3 +19,9 @@ Benefits:
 	Repeatable Process
 	Reusable Components
 	Documented Architecture
+Terraform Components:
+	Terraform Executables
+	Terraform file
+	Terraform plugin
+	Terraform State
+
